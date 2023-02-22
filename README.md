@@ -6,6 +6,7 @@ The caesar cipher involves shifting every letter in the given string by a given 
 Program is written in NASM Assembly Language for 64 bit Intel Architecture
 
 ------------------------------------------------------------------------------------------------------------------
+**Project Details**
 
 - Asks the user for a location between 0-25 (includes error checking)
 
@@ -21,15 +22,29 @@ characters to 'k'. The shift must be applied to all letters in the message. Do n
 change any non-alphabet characters in the message, and preserve all
 capitalization.
 
-Sample run 1:
+------------------------------------------------------------------------------------------------------------------
+
+**To Assemble program: **
+
+- Assemble it using: nasm –f elf64 filename.asm
+
+- Link to create executable: gcc –m64 –o filename filename.o
+
+- Execute program: ./caesar 
+
+------------------------------------------------------------------------------------------------------------------
+**Sample run 1:**
 
 Enter shift value: 6
+
 Enter original message: This is the original message.
+
 Current message: This is the original message.
+
 Encryption: Znoy oy znk uxomotgr skyygmk.
 
 
-Sample run 2:
+**Sample run 2:**
 
 Enter shift value: 10
 
