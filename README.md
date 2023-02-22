@@ -13,7 +13,7 @@ Program is written in NASM Assembly Language for 64 bit Intel Architecture
 included)
 
 - displays an edited string to the user edited in the following way:
-- 
+
 Shift every letter in the message by the indicated number of positions in the
 alphabet. When a letter gets shifted past the beginning or end of the alphabet,
 wrap around to the other end to continue. For example, a 6 would shift any 'e'
