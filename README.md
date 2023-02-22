@@ -24,11 +24,8 @@ capitalization.
 Sample run 1:
 
 Enter shift value: 6
-
 Enter original message: This is the original message.
-
 Current message: This is the original message.
-
 Encryption: Znoy oy znk uxomotgr skyygmk.
 
 
