@@ -20,3 +20,24 @@ wrap around to the other end to continue. For example, a 6 would shift any 'e'
 characters to 'k'. The shift must be applied to all letters in the message. Do not
 change any non-alphabet characters in the message, and preserve all
 capitalization.
+
+Sample run 1:
+
+Enter shift value: 6
+
+Enter original message: This is the original message.
+
+Current message: This is the original message.
+
+Encryption: Znoy oy znk uxomotgr skyygmk.
+
+
+Sample run 2:
+
+Enter shift value: 10
+
+Enter original message: This is the original message.
+
+Current message: This is the original message.
+
+Encryption: Drsc sc dro ybsqsxkv wocckqo.
