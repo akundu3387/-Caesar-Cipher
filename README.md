@@ -24,7 +24,7 @@ capitalization.
 
 ------------------------------------------------------------------------------------------------------------------
 
-**To Assemble program: **
+**To Assemble Program:**
 
 - Assemble it using: nasm –f elf64 filename.asm
 
